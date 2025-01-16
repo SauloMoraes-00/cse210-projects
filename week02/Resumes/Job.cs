@@ -1,4 +1,6 @@
-class Job
+using System;
+
+public class Job
 {
     public string _jobTitle;
     public string _company;
@@ -7,9 +9,6 @@ class Job
 
     public void DisplayJobDetails()
     {
-        Console.WriteLine($"Title: {_jobTitle}");
-        Console.WriteLine($"Company: {_company}");
-        Console.WriteLine($"Start Year: {_startYear}");
-        Console.WriteLine($"End Year: {_endYear}");
+       Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
     }
 }

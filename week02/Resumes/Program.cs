@@ -16,10 +16,12 @@ class Program
         job2._startYear = 2023;
         job2._endYear = 2025;
 
-        Console.WriteLine("Job 1 Details:");
-        job1.DisplayJobDetails();
+        Resume myResume = new Resume();
+        myResume._name = "Saulo Moraes";
 
-        Console.WriteLine("\nJob 2 Details:");
-        job2.DisplayJobDetails();
+        myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
+
+        myResume.Display();
     }
 }
