@@ -1,0 +1,11 @@
+{
+  "Goals": [
+    {
+      "Name": "Scriptures",
+      "Description": "Read the scriptures in the morning",
+      "Points": 150,
+      "IsCompleted": false
+    }
+  ],
+  "TotalScore": 250
+}
